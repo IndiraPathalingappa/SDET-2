@@ -24,7 +24,7 @@ public class CreateAContactAndVerifyInOrgTest extends BaseClass{
 			
 			
 			
-	        
+	        //fetch the data from property file
 	        String URL = fLib.getPropertyKeyValue("url");
 	        String USERNAME = fLib.getPropertyKeyValue("username");
 	        String PASSWORD = fLib.getPropertyKeyValue("password");
