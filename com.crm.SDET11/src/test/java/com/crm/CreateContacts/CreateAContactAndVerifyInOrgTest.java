@@ -54,8 +54,7 @@ public class CreateAContactAndVerifyInOrgTest extends BaseClass{
 			LoginPage login = new LoginPage(driver);
 			login.loginToApplication(USERNAME, PASSWORD);*/
 				
-				
-			 //create the contactttttttttttttttt
+		
 			HomePage home = new HomePage(driver);
 			home.getContactslink().click();
 			//driver.findElement(By.xpath("//a[.='Contacts']")).click();
