@@ -110,7 +110,7 @@ public class EmailOptOutBoxIsEnableOrNotTest extends BaseClass {
 		// to take
 		wLib.takesScreenShot(driver, lastname);
 
-		//it is used to scroll the window down
+		//it is
 		wLib.scrollBarAction(driver);
 
 		//To check Email Check box and verify
