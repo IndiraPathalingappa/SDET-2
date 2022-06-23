@@ -107,7 +107,7 @@ public class EmailOptOutBoxIsEnableOrNotTest extends BaseClass {
 		//driver.findElement(By.name("firstname")).sendKeys(contName);
 		//	driver.findElement(By.name("lastname")).sendKeys(lastname);
 
-		// to take screen shot after Login
+		// to take
 		wLib.takesScreenShot(driver, lastname);
 
 		//it is used to scroll the window down
