@@ -35,11 +35,11 @@ public class BaseClass  {
 	
 	public void launchTheBrowser() throws Throwable
 	{
-		String BROWSER=System.getProperty("browser");
-		String URL=System.getProperty("url");
+		//String BROWSER=System.getProperty("browser");
+		//String URL=System.getProperty("url");
 			
-		//String BROWSER = fLib.getPropertyKeyValue("browser");
-		//String  URL= fLib.getPropertyKeyValue("url");
+		String BROWSER = fLib.getPropertyKeyValue("browser");
+		String  URL= fLib.getPropertyKeyValue("url");
 		
 		if(BROWSER.equalsIgnoreCase("chrome")) {
 			//System.setProperty("webdriver.chrome.driver",".\\src\\main\\resources\\chromedriver.exe");
